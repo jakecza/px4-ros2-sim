@@ -1,0 +1,23 @@
+<package format="2">
+  <name>px4_ros2_sim</name>
+  <version>1.0.0</version>
+  <description>
+    ROS2 Gazebo 11 simulation pkg for PX4
+  </description>
+  <author>Jake Czajkowski</author>
+  <maintainer email="jake@jakecza.com">Jake Czajkowski</maintainer>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>px4_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
